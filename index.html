@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para o Meu Amor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-romantico">
+        <h1>Para o Meu Amor</h1>
+        <p class="subtitulo">Feliz Dia dos Namorados!</p>
+    </header>
+    
+    <div class="container">
+        <button class="open">Clique aqui, mohmoh</button>
+    </div>
+    
+
+   <section class="vertical-gallery">
+    <h2 class="gallery-title">Fotinhas minha e do meu mohmoh</h2>
+    
+    <div class="photo-card">
+        <img src="stitch.png" alt="Nosso">
+        <div class="photo-info">
+         
+            <p class="photo-caption">Perché la vita, senza te</p>
+        </div>
+    </div>
+    
+    <div class="photo-card">
+        <img src="pisci.png" alt="Nosso">
+        <div class="photo-info">
+            <span class="photo-date">19/01/2025</span>
+            <p class="photo-caption">non può essere perfetta</p>
+        </div>
+    </div>
+    </section>
+<div class="music-player">
+    <h3 class="music-title">Nossa Música Especial</h3>
+    <audio id="ourSong" controls>
+        <source src="003.MANESKIN - Torna a Casa.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <div class="music-controls">
+        <button id="playBtn">▶️ Tocar</button>
+        <button id="pauseBtn">⏸️ Pausar</button>
+        <span id="timeDisplay">0:00 / 0:00</span>
+    </div>
+</div>
+
+<div class="quiz-container">
+    <h2 class="quiz-title">Quiz do Nosso Amor</h2>
+    <div class="quiz-progress">1 de 5</div>
+    
+    <div class="quiz-question">
+        <p>Onde foi nosso primeiro beijinho?</p>
+    </div>
+    
+    <div class="quiz-options">
+        <button class="option">Na pista</button>
+        <button class="option">Na praça</button>
+        <button class="option">Na chaos</button>
+        <button class="option">Na minha casa</button>
+    </div>
+    
+    <div class="quiz-feedback"></div>
+    
+    <button class="quiz-next" disabled>Próxima Pergunta</button>
+</div>
+
+<div class="tree-container">
+    <h2 class="tree-title">Toque nas folhas para revelar mensagens</h2>
+    <div class="tree">
+        <div class="leaf" data-message="Você é a razão do meu sorriso">🍃</div>
+        <div class="leaf" data-message="Meu coração é seu">🍂</div>
+        <div class="leaf" data-message="Nenhum lugar é melhor que seus abraços">🌿</div>
+        <div class="leaf" data-message="Meu amor por voce e maior que todo o universo">🍁</div>
+        <div class="leaf" data-message="Você é meu maior motivo de estar vivo">🌱</div>
+    </div>
+    <div class="message-display"></div>
+</div>
+
+<section class="vertical-gallery">
+    <h2 class="gallery-title">mais fotinhass</h2>
+    
+    <div class="photo-card">
+        <img src="agua.png" alt="Nosso">
+        <div class="photo-info">
+         
+            <p class="photo-caption">amo sair com voce</p>
+        </div>
+    </div>
+    
+    <div class="photo-card">
+        <img src="mimindo.png" alt="Nosso">
+        <div class="photo-info">
+            
+            <p class="photo-caption">Amo quando voce dorme do nada e tenho q leva voce pra cama</p>
+        </div>
+    </div>
+    </section>
+
+    <div class="modal-wrapper" id="secondModal">
+    <div class="romantic-modal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-heart">❤️</div>
+        <h2>Para Você, Meu Amor</h2>
+        <p>MORR,passando aqui pr ate dizer que eu te amo mais que tudo nesse mund,voce foi a MELHOR escolha da minha VIDA, amo dividir cada momento com voce, desculpa todas as vezes que errei com voce mas voce me ensinou a aprender com meus erros e a ser uma pessoa e um namorado melhor a cada dia, muito obrigado por cuidar de mim quando to triste e feliz, e por nunca me deixar sozinho, TE AMOO mais que todas as galaxias junto com o universo!!!.</p>
+        <div class="modal-footer">
+            <button class="romantic-btn">Aceito seu amor</button>
+        </div>
+    </div>
+</div>
+<div class="love-toast" id="loveToast">
+    <div class="toast-content">
+        <span class="toast-heart">💖</span>
+        <span class="toast-message">Eu sabia que você aceitaria! Te amo infinito!</span>
+    </div>
+</div>
+
+<button class="open-second-modal">Mais uma mensagem especial</button>
+
+<div class="love-counter">
+    <h2 class="counter-title">Nosso Tempo Juntos</h2>
+    <div class="counter-container">
+        <div class="time-box">
+            <span id="years">0</span>
+            <span class="time-label">Anos</span>
+        </div>
+        <div class="time-box">
+            <span id="months">0</span>
+            <span class="time-label">Meses</span>
+        </div>
+        <div class="time-box">
+            <span id="days">0</span>
+            <span class="time-label">Dias</span>
+        </div>
+        <div class="time-box">
+            <span id="hours">0</span>
+            <span class="time-label">Horas</span>
+        </div>
+        <div class="time-box">
+            <span id="minutes">0</span>
+            <span class="time-label">Minutos</span>
+        </div>
+        <div class="time-box">
+            <span id="seconds">0</span>
+            <span class="time-label">Segundos</span>
+        </div>
+    </div>
+    <p class="counter-message">Cada instante ao seu lado é um presente ❤️</p>
+</div>
+
+<section class="vertical-gallery">
+    <h2 class="gallery-title">mais fotinhass</h2>
+    
+    <div class="photo-card">
+        <img src="lica.png" alt="Nosso">
+        <div class="photo-info">
+         
+            <p class="photo-caption">Voce e muito LINDAAAA vsff😍🤤🥵</p>
+        </div>
+    </div>
+    
+    <div class="photo-card">
+        <img src="galinha.png" alt="Nosso">
+        <div class="photo-info">
+            
+            <p class="photo-caption">NOSS e a galinhaa mohmohhh</p>
+        </div>
+    </div>
+    </section>
+<div class="interactive-poem">
+    <h2 class="poem-title">poeminha pra minha vidaa</h2>
+    <div class="poem-container">
+        <div class="poem-line" data-delay="0">Em você encontrei minha paz</div>
+        <div class="poem-line" data-delay="1">Seu sorriso me faz feliz demais</div>
+        <div class="poem-line" data-delay="2">Cada momento ao seu lado</div>
+        <div class="poem-line" data-delay="3">É um sonho realizado</div>
+        <div class="poem-line" data-delay="4">Te amo mais que tudo</div>
+        <div class="poem-heart">❤️</div>
+    </div>
+</div>
+
+<div class="memory-game">
+    <h2 class="game-title">Jogo da Memória do Nosso Amor</h2>
+    <div class="game-container">
+        <div class="memory-card" data-framework="foto1">
+            <img class="front-face" src="papando.png" alt="Foto 1">
+            <img class="back-face" src="jare.png" alt="Verso">
+        </div>
+        <div class="memory-card" data-framework="foto1">
+            <img class="front-face" src="papando.png" alt="Foto 1">
+            <img class="back-face" src="jare.png" alt="Verso">
+        </div>
+        <div class="memory-card" data-framework="foto2">
+        <img class="front-face" src="sla.png" alt="Foto 2">
+        <img class="back-face" src="jare.png" alt="Verso">
+    </div>
+    <div class="memory-card" data-framework="foto2">
+        <img class="front-face" src="sla.png" alt="Foto 2">
+        <img class="back-face" src="jare.png" alt="Verso">
+    </div>
+
+    <div class="memory-card" data-framework="foto3">
+        <img class="front-face" src="beijinho.png" alt="Foto 3">
+        <img class="back-face" src="jare.png" alt="Verso">
+    </div>
+    <div class="memory-card" data-framework="foto3">
+        <img class="front-face" src="beijinho.png" alt="Foto 3">
+        <img class="back-face" src="jare.png" alt="Verso">
+    </div>
+       
+    </div>
+</div>
+
+<div class="surprise-box">
+    <p>Arraste para cima ↓</p>
+    <div class="surprise-content">
+        <p>Surpresa! Um voucher para um jantar romântico!</p>
+    </div>
+</div>
+
+<script src="surprise.js"></script>
+   <script src="memory.js"></script>
+<script src="poem.js"></script>
+    <script src="script.js"></script>
+    <script src="hearts.js"></script>
+</body>
+</html>
